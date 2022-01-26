@@ -1,5 +1,5 @@
 <template>
-<navbar>
+<navbar class="mb-4 sm:mb-6 md:mb-8">
   <h1 class="font-bold text-2xl"><router-link to="/">vandercat</router-link></h1>
   <span>
     <ul class="flex items-center gap-4">
@@ -9,7 +9,7 @@
       </li>
       -->
       <li v-for="item in navitems" :key="'Nav'+item.name"> 
-        <router-link active-class="text-purple-300" :to="item.link" class="hover:text-purple-500 transition-colors ease-out"> {{item.name}} </router-link>
+        <router-link active-class="dark:!text-purple-500 !text-white" :to="item.link" class="dark:hover:text-purple-300 hover:text-purple-300 dark:text-white text-purple-500 transition-colors ease-out"> {{item.name}} </router-link>
       </li>
     </ul>
   </span>

@@ -1,6 +1,6 @@
 {
-  "name": "dauncorp2",
-  "version": "2.0-beta",
+  "name": "vandercatpage",
+  "version": "0.1-dev",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
